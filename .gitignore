@@ -1,0 +1,19 @@
+# Logged-in browser session (cookies) - never commit
+.browser-profile/
+
+# Scraped data and logs (contain personal data)
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Excel lock files
+~$*
